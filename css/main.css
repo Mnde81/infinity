@@ -54,8 +54,7 @@ h4 {
     flex-direction: column;
     gap: 10px;
     padding-left: 10px;    
-    padding-right: 10px;
- 
+    padding-right: 10px; 
 }
 
 .progress-bar .progress {
@@ -99,4 +98,85 @@ h4 {
     color: black;
 }
 
+.my-courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.all-courses {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    color: #9C9C9C;
+    margin-right: 40px;
+}
+
+.all-courses-active {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.main-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.main-lists-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+.item-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-1 > img {
+    width: 40px;
+}
+
+.item-1 > p {
+    font-size: 12px;
+}
+
+.fire {
+    width: 15px;
+}
+
+.dots {
+    height: 30px;
+}
+
+.item-2 > button {
+    border: none;
+    background-color: #FEDA84;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.item-2 > button:hover {
+    background-color: #FDBC94;
+    cursor: pointer;
+}
+
+.item-2 > p {
+    font-size: 14px;
+}
