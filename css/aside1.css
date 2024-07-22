@@ -1,0 +1,61 @@
+.aside-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.logo1 {
+    width: 150px;
+}
+
+.logo2 {
+    width: 50px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;    
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.nav-icons-active {
+    background-color: #FEF6DF;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;    
+}
+
+.nav-icons > img {
+    width: 25px;
+}
+
+.nav-icons > a {
+    text-decoration: none;
+    color: #8295B3;
+}
+
+.nav-img {
+    width: 220px;
+    margin-left: 30px;
+    margin-top: 90px;
+}
