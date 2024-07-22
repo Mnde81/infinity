@@ -14,3 +14,89 @@ body {
 main {
     background-color: #F7F7F5;
 }
+
+h4 {
+    margin-left: 45px;
+}
+
+.main-courses {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.course {
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.course > img {
+    width: 230px;
+}
+
+.course-p {
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.bar-div {
+    background-color: #F7F7F7;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;    
+    padding-right: 10px;
+ 
+}
+
+.progress-bar .progress {
+    --h: 8px;
+    height: var(--h);
+    width: 100%;
+    background-color: #EDEDF5;
+    border-radius: var(--h);
+}
+
+.progress-bar .bar-1 {
+    width: 40%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: #FFCD5C;   
+}
+
+.bar-par {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bar-par-p-1 {
+    color: #8A8F95;
+    font-size: 10px;
+}
+
+.bar-par-p-1 > span {
+    color: black;
+}
+
+.bar-par-p-2 {
+    color: #8A8F95;
+    font-size: 10px;
+}
+
+.bar-par-p-2 > span {
+    color: black;
+}
+
+
