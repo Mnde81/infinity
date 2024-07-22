@@ -1,0 +1,127 @@
+.aside-2 {
+    background-color: #F7F7F5;
+}
+
+.aside-2 > img {
+    width: 265px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.aside-2-user {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    position: relative;
+}
+
+.user {
+    width: 50px;
+}
+
+.user-arrow {
+    width: 35px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.aside-2-user > p {
+    font-size: 14px;
+}
+
+.aside-2-user > p > span {
+    font-size: 10px;
+    color: #656D78;
+}
+
+.aside-2-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.aside-2-courses-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    width: 127px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.aside-2-courses-numbers {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aside-2-courses-desc {
+    font-size: 10px;
+    color: #656D78;
+}
+
+.aside-2-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.aside-2-list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+.aside-2-list-item > img {
+    width: 60px;
+}
+
+.aside-2-list > p {
+    padding-left: 10px;
+}
+
+.aside-2-list-item > p {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.aside-2-list-item > p > span {
+    font-size: 8px;
+    color: #656D78;    
+}
+
+.aside-2-view {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.aside-2-view > img {
+    width: 35px;
+}
+
+.aside-2-view > p {
+    font-size: 12px;
+    color: #656D78; 
+}
